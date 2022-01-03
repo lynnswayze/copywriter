@@ -19,7 +19,7 @@
 ## Technical site info
 #baseurl: "" # This is better empty
 subpath: "/finished-starter" # Could be a subsite of a domain at a path, ex. "/sub-site"
-#google_analytics: UA-697953-3 # The UA- code provided by GA
+#google_analytics: UA-32047501-1 
 
 ## The option below lets you choose between having Jekyll process and minify your CSS and JS (good enough), or adding a
 ## step whenever you work on a CSS or JS file to run the .scripts/pre-commit.sh script before committing. This extra
@@ -33,26 +33,23 @@ filament_load_css: "false" # Use the https://www.filamentgroup.com/lab/load-css-
 #content_security_policy: "default-src 'self'; script-src 'self' 'unsafe-inline'"
 
 ## Basic site info
-title: "finished-starter"
-primary_author: "Lower Barriers" # This is shown in the copyright statement in the footer of the site.
-shortname: fin-start
-tagline: "A website, not a project"
+title: "Copywriter Lynn Swayze"
+primary_author: "Lynn Swayze, Direct Response Copywriter" # This is shown in the copyright statement in the footer of the site.
+shortname: swayze
+tagline: "Direct Response Copywriter & Marketing Strategist"
 
 ## Site and contact bits
-email: helper@lowerbarriers.org
-#fax:
-#  display: "(248) 555-0123" # Fax number as displayed
-#  mailto: "12485550213" # Fex number with country code for the link
+email: support@lynnswyaze.com
 locations:
-  - name: "Lower Barriers"
-    street_address: "1428 Mark Ave"
-    locality: Lincoln Park
-    region: MI
-    postal_code: "48146"
+  - name: "IDRM LLP"
+    street_address: "601 E MAXWELL LANE"
+    locality: Bloomington
+    region: IN
+    postal_code: "47401"
     country_name: USA
 phone:
-  display: "(313) 649-7359" # Phone number as displayed
-  mailto: "13136497359" # Phone number with country code for the link
+  display: "(317) 296-1627" # Phone number as displayed
+  mailto: "13172961627" # Phone number with country code for the link
 
 ## Social links
 ## Find icons in _includes/icons/[library]/[symbol].svg
@@ -64,12 +61,12 @@ social:
       library: simple-icons
       symbol: facebook
   - title: Twitter
-    url: https://twitter.com/lowerbarriers
+    url: https://twitter.com/lynnswayze
     icon:
       library: simple-icons
       symbol: twitter
   - title: GitHub
-    url: https://github.com/lowerbarriers/finished-starter
+    url: https://github.com/lynnswayze
     icon:
       library: simple-icons
       symbol: github
@@ -77,12 +74,12 @@ social:
 ## Press contact
 ## For small sites this is the same person and contact information as above. For companies... probably not.
 press:
-  name: "Brad Czerniak"
-  job_title: "Webmaster"
-  email: "helper@lowerbarriers.org"
+  name: "Lynn Swayze"
+  job_title: "Queen of Copy"
+  email: "support@lynnswayze.com"
   phone:
-    display: "(313) 649-7359" # Phone number as displayed
-    mailto: "13136497359" # Phone number with country code for the link
+    display: "(317) 296-1627" # Phone number as displayed
+    mailto: "13172961627" # Phone number with country code for the link
 
 ## The <html> tag has language and language direction. We can make it configurable
 html:
@@ -92,7 +89,7 @@ html:
 
 ## Standard <meta> tags for SEO, etc.
 meta:
-  description: "finished-starter is the best free website on the market."
+  description: "Direct Response Copywriter for Info-Marketers, Consultants, A&M"
   generator: "[Jekyll](https://github.com/mojombo/jekyll)"
   image:
     alt: "Site default social image" # It's okay for this to be an empty string if the image is decorative
@@ -111,20 +108,20 @@ open_graph:
 schema:
   type: "CreativeWork" # (default for site, often "CreativeWork")
   publisher:
-    type: "Person" # Whether a "Person" or "Organization" is the publisher of the site.
+    type: "Lynn Swayze" # Whether a "Person" or "Organization" is the publisher of the site.
 
 ## Twitter cards
 ## @see https://developer.twitter.com/en/docs/tweets/optimize-with-cards/guides/getting-started
 twitter:
   card: "summary_large_image"
-  creator: "@lowerbarriers"
-  site: "@lowerbarriers"
+  creator: "@lynnswayze"
+  site: "@lynnswayze"
 
 ## Web monetization
 ## Comment out this section to remove the <meta> tag.
 ## @see https://webmonetization.org/
-#web_monetization:
-#  pointer: "$ilp.uphold.com/DY7b72i8hmgm" # A valid ILP pointer
+## web_monetization:
+##  pointer: "$ilp.uphold.com/DY7b72i8hmgm" # A valid ILP pointer
 
 ## PWA and other SEO
 ## @see https://developer.mozilla.org/en-US/docs/Web/Manifest
